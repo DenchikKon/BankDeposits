@@ -666,7 +666,7 @@ namespace PraktikaTRPO
 
                     Object missing = Type.Missing;
 
-                    app.Documents.Open(@"D:\WebSharp\PraktikaTRPO\PraktikaTRPO\bin\Debug\ДОГОВОР.docx");
+                    app.Documents.Open(file);
                     app.Visible = false;
                     foreach (var item in items)
                     {
